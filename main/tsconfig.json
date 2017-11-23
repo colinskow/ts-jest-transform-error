@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "declaration": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "noEmitHelpers": true,
+      "importHelpers": true,
+      "strictNullChecks": false,
+      "isolatedModules": false,
+      "lib": [
+        "es2016",
+        "dom"
+      ],
+      "outDir": "lib",
+      "rootDirs": [".", "../common"]
+    },
+    "include": [
+      "./**/*",
+      "../common/**/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
