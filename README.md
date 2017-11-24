@@ -1,4 +1,4 @@
-- Issue
+- [Issue](https://github.com/kulshekhar/ts-jest/issues/376)
 
 `ts-jest` throws an error whenever a test utilizes a module from outside the project root.
 

@@ -6,6 +6,7 @@
   "author": "Colin Skow <colinskow@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "dependencies": {
@@ -18,7 +19,7 @@
     "transform": {
       "^.+\\.ts?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(ts)$",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js|ts)$",
     "moduleFileExtensions": [
       "ts",
       "js",
