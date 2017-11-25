@@ -3,6 +3,9 @@
 # dependencies
 node_modules/
 
+# build
+lib/
+
 # IDEs and editors
 .idea/
 .project
