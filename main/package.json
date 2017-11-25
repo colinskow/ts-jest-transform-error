@@ -6,13 +6,18 @@
   "author": "Colin Skow <colinskow@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "rimraf lib && tsc",
+    "clean": "rimraf lib",
     "test": "jest"
   },
   "dependencies": {
     "jest": "^21.2.1",
     "ts-jest": "^21.2.3",
     "typescript": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^21.1.8",
+    "rimraf": "^2.6.2"
   },
   "jest": {
     "testEnvironment": "node",
@@ -25,8 +30,5 @@
       "js",
       "json"
     ]
-  },
-  "devDependencies": {
-    "@types/jest": "^21.1.8"
   }
 }

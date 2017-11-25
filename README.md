@@ -18,3 +18,7 @@ TS files should be correctly imported even from outside the project.
 https://github.com/colinskow/ts-jest-transform-error
 
 `cd main && npm install && npm test`
+
+**Test with Javascript build:**
+
+`cd main npm run build && npm test`
